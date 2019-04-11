@@ -82,7 +82,7 @@ RUN /usr/sbin/passenger-memory-stats
 
 # Clone the openstreetmap-website
 RUN rm -rf $workdir
-RUN git clone https://github.com/openstreetmap/openstreetmap-website.git $workdir 
+RUN git clone https://github.com/gulopine/openstreetmap-website.git $workdir 
 WORKDIR $workdir
 # gitsha 39f0b501e8cefea961447de9c8076e20fa3adbb4 at Jul 23, 2018
 RUN git checkout 39f0b501e8cefea961447de9c8076e20fa3adbb4
